@@ -1,0 +1,54 @@
+//
+// Google font - Public Sans
+//
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+//
+// Premium font - Cerebri Sans
+//
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: local("Cerebri Sans Light"), local("cerebrisans-light"),
+    url("./../../../fonts/cerebrisans-light.woff2") format("woff2"),
+    url("./../../../fonts/cerebrisans-light.woff") format("woff"),
+    url("./../../../fonts/cerebrisans-light.svg") format("svg");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: local("Cerebri Sans Regular"), local("cerebrisans-regular"),
+    url("./../../../fonts/cerebrisans-regular.woff2") format("woff2"),
+    url("./../../../fonts/cerebrisans-regular.woff") format("woff"),
+    url("./../../../fonts/cerebrisans-regular.svg") format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: local("Cerebri Sans Medium"), local("cerebrisans-medium"),
+    url("./../../../fonts/cerebrisans-medium.woff2") format("woff2"),
+    url("./../../../fonts/cerebrisans-medium.woff") format("woff"),
+    url("./../../../fonts/cerebrisans-medium.svg") format("svg");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: local("Cerebri Sans Semibold"), local("cerebrisans-semibold"),
+    url("./../../../fonts/cerebrisans-semibold.woff2") format("woff2"),
+    url("./../../../fonts/cerebrisans-semibold.woff") format("woff"),
+    url("./../../../fonts/cerebrisans-semibold.svg") format("svg");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Cerebri Sans,sans-serif";
+  src: local("Cerebri Sans Bold"), local("cerebrisans-bold"),
+    url("./../../../fonts/cerebrisans-bold.woff2") format("woff2"),
+    url("./../../../fonts/cerebrisans-bold.woff") format("woff"),
+    url("./../../../fonts/cerebrisans-bold.svg") format("svg");
+  font-weight: 700;
+}

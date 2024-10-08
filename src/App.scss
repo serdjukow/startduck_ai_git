@@ -1,0 +1,19 @@
+:root {
+  --index: calc(1vw + 1vh);
+}
+
+.custom-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--index) * 5);
+  height: calc(var(--index) * 5);
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

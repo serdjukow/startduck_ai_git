@@ -1,0 +1,17 @@
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == 'dev_front'
+
+default:
+  tags:
+    - s.isgood.host
+
+stages:
+  - deploy-front
+
+Deploy Node App:
+  stage: deploy-front
+  script: 
+    - yarn install
+    - yarn build
+    - sudo rsync -a --delete dist/ /opt/startduck_ai/www_data/
